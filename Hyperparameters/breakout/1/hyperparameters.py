@@ -1,0 +1,13 @@
+gamma = 0.99
+batch_size = 32
+BUFFER_SIZE=int(1e6) #int(1e6)
+MIN_REPLAY_SIZE=50000
+ep_start=1.0
+ep_end=0.01
+NUM_ENVS = 4
+ep_decay = int(1e6)
+TARGET_UPDATE_FREQ = 2500
+LR = 5e-5
+SAVE_PATH = './atari_model.pack'
+SAVE_INTERVAL = 10000
+LOG_INTERVAL = 100
